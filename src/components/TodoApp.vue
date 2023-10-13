@@ -167,4 +167,11 @@ export default {
   text-decoration: line-through;
 }
 
+body{
+background-image: url("@/assets/logo.png");
+background: cover;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
 </style>
