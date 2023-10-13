@@ -1,5 +1,5 @@
 <template>
- <div class="container" style="max-width: 600px">
+    <div class="container" style="max-width: 600px">
       <!-- Heading -->
       <h2 class="text-center mt-5">CheckMate App</h2>
 
@@ -15,7 +15,7 @@
           SUBMIT
         </button>
       </div>
-
+      
 
        <!-- Task table -->
       <table class="table table-bordered mt-5">
@@ -79,16 +79,16 @@ export default {
       /* Status could be: 'to-do' / 'in-progress' / 'finished' */
       tasks: [
         {
-          name: "Read and respond to emails.",
-          status: "to-do",
+          name: "Wake up at the same time every morning.",
+          status: "finished",
         },
         {
           name: "Exercise - Go on a walk or run.",
           status: "in-progress",
         },
         {
-          name: "Create YouTube video.",
-          status: "finished",
+          name: "Read and respond to emails.",
+          status: "to-do",
         },
       ],
     };
@@ -151,6 +151,15 @@ export default {
 </script>
 
 <style scoped>
+
+.container {
+  background-image: url('@/assets/todoimage.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
 .pointer {
   cursor: pointer;
 }
@@ -165,13 +174,6 @@ export default {
 }
 .line-through {
   text-decoration: line-through;
-}
-
-body{
-background-image: url("@/assets/logo.png");
-background: cover;
-background-size: cover;
-background-repeat: no-repeat;
 }
 
 </style>
