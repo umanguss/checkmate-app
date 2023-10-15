@@ -1,7 +1,7 @@
 <template>
     <div class="container" style="max-width: 600px">
       <!-- Heading -->
-      <h2 class="text-center mt-5">CheckMate App</h2>
+      <h1 class="text-center mt-5">CHECKMATE APP</h1>
 
       <!-- Input -->
       <div class="d-flex mt-5">
@@ -152,7 +152,7 @@ export default {
 
 <style scoped>
 
-.container {
+.container{
   background-image: url('@/assets/todoimage.jpg'); 
   background-size: cover;
   background-repeat: no-repeat;

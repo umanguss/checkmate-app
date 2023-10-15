@@ -13,6 +13,15 @@ export default {
     TodoApp
   }
 }
-</script>
-
-
+</script >
+<style>
+#app{
+  background-image: url("./assets/todoimage.jpg");
+  height: 130vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin: -50px;
+}
+</style>
